@@ -20,4 +20,8 @@ public class FactorialTest {
        Factorial.calculateFactorial(0);
     }
 
+    @Test(expected = RuntimeException.class)
+    public void whenCalculateFactorialIsBigInteger() {
+        Factorial.calculateFactorial(0);
+    }
 }

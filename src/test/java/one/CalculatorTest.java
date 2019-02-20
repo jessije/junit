@@ -6,8 +6,6 @@ import org.junit.rules.ExpectedException;
 
 import java.util.Random;
 
-import static org.junit.Assert.*;
-
 
 public class CalculatorTest {
     @Test
@@ -16,14 +14,14 @@ public class CalculatorTest {
         int result = calculator.add(5, 3);
 //then
         assert result == 8;
-       assertEquals(32, 1*2);
+       //assertEquals(32, 1*2);
 
     }
 
     @Test
     public void test1() {
-        assertTrue(5<9);
-        assertFalse(5<9);
+        //assertTrue(5<9);
+        //assertFalse(5<9);
 //        assertArrayEquals(, aaray2);
 //        assertNull(object);
 //        assertSame(object1, object2);
