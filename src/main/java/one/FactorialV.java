@@ -1,6 +1,6 @@
 package one;
 
-public class Factorial {
+public class FactorialV {
 
     public static void main(String[] args) {
         System.out.println(calculateFactorial(5));
